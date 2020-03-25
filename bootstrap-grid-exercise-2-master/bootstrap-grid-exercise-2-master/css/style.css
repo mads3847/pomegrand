@@ -31,8 +31,26 @@ body {
     align-items: center;
 }
 
+
+#bil1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bil2 {
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 .carousel-control-prev-icon {
-    background-color: black;
+    background-color: #f8edee;
 }
 
  p {
@@ -40,6 +58,8 @@ body {
     font-size: 1.2em;
     line-height: 1.9em;
 }
+
+
 
 h1 {
     color: white;
@@ -76,7 +96,7 @@ h4 {
 }
 
 .carousel-control-next-icon {
-    background-color: black;
+    background-color: #f8edee;
 }
 
 #footer {
@@ -89,7 +109,7 @@ h4 {
 
 .hash {
     color: white;
-    font-weight: 900;
+    font-weight: 1000;
     font-size: 0.8em;
     letter-spacing: 1px;
 }
@@ -161,6 +181,25 @@ h4 {
     #tilbud {}
 
     #omos {}
+
+
+
+
+
+
+    #bil1 {
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#bil2 {
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 /* END "md-" 768px and up */
@@ -171,6 +210,21 @@ h4 {
 /**************************************************/
 @media (min-width: 992px) {
 
+
+
+    #bil1 {
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#bil2 {
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
     /* END "lg-" 992px and up */
 }
 
