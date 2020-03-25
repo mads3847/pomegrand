@@ -1,0 +1,158 @@
+/* style.css - til dine custom styles */
+
+/**************************************************/
+/* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
+/**************************************************/
+
+
+html,
+body {
+    height: 100%;
+}
+
+#ov {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brod {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bil {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+ p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+     line-height: 1.9em;
+}
+
+h1 {
+    color: white;
+        font-family: 'Merriweather', serif;
+
+}
+
+h2 {
+    color: #a32f16;
+    font-family: 'Merriweather', serif;
+    line-height: 1.4em;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+#footer {
+    background-color: #f8edee;
+}
+
+#smk {
+    background-color: #fbf3f4;
+}
+
+.hash {
+    color: white;
+}
+
+#knaptxt {}
+
+#knap {
+    background-color: white;
+}
+
+#graf {
+    background-color: #fbf3f4;
+
+}
+
+#forhandler {
+    background-color: #fcf8f8;
+}
+
+#hero {
+    background-color: white;
+}
+
+#grandpome {
+    background-color: #fcf8f8;
+}
+
+#historie {
+    background-color: white;
+}
+
+#voresis {
+    background-color: white;
+
+}
+
+#tilbud {
+    background-color: whitesmoke;
+
+}
+
+#omos {
+    background-color: whitesmoke;
+
+}
+
+/**************************************************/
+/* Small devices (landscape phones, 576px and up) */
+/**************************************************/
+@media (min-width: 576px) {
+    video {
+        width: 510px;
+        height: 300px;
+    }
+
+}
+
+/* END "sm-" 576px and up */
+
+
+/**************************************************/
+/* // Medium devices (tablets, 768px and up) */
+/**************************************************/
+@media (min-width: 768px) {
+    #hero {}
+
+    #voresis {}
+
+    #tilbud {}
+
+    #omos {}
+}
+
+/* END "md-" 768px and up */
+
+
+/**************************************************/
+/* // Large devices (desktops, 992px and up) */
+/**************************************************/
+@media (min-width: 992px) {
+
+    /* END "lg-" 992px and up */
+}
+
+/**************************************************/
+/* // Extra large devices (large desktops, 1200px and up) */
+/**************************************************/
+@media (min-width: 1200px) {
+
+    /* END "xl-" 1200px and up */
+}
