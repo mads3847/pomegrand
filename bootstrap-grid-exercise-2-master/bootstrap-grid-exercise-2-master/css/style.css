@@ -53,6 +53,28 @@ h2 {
     line-height: 1.4em;
 }
 
+h3 {
+
+    color: #a32f16;
+    font-family: 'Merriweather sans', sans-serif;
+    line-height: 1.4em;
+    font-size: 1.8em;
+    font-weight: 700;
+      text-align: left;
+
+}
+
+h4 {
+
+    color: #a32f16;
+    font-family: 'Merriweather sans', sans-serif;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    font-weight: 300;
+      text-align: left;
+
+}
+
 .carousel-control-next-icon {
     background-color: black;
 }
