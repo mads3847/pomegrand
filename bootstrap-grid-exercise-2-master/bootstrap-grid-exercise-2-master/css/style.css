@@ -162,18 +162,20 @@ body {
 
 #karo {
     display: wrap;
-    align-items: center;
+
     justify-content: center;
+    align-content: center;
 
 }
 
 
 #knap {
     height: 100%;
-    display: wrap;
+    display: flex;
     align-content: center;
     align-items: center;
-    margin-left: 12vw
+    margin-left: 3vw;
+
 }
 
 #knap1 {}
@@ -352,6 +354,11 @@ span.carousel-control-next-icon {
     video {
         width: 510px;
         height: 300px;
+    }
+
+    #knap {
+        margin-left: 16vw;
+        padding-right: 10vw;
     }
 
 
