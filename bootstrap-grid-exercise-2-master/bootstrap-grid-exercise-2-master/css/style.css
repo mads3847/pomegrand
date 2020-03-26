@@ -121,7 +121,12 @@ body {
 }
 
 
-
+#haanden {
+     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -130,6 +135,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #brod {
@@ -225,11 +231,7 @@ h4 {
     font-weight: 300;
       text-align: left;
 
-}
 
-#haanden {
-    max-width: 80%;
-    max-height: auto;
 }
 .carousel-control-next-icon {
     background-color: #f8edee;
@@ -302,12 +304,7 @@ h4 {
     }
 
 
-     #haanden {
 
-max-width: 75%;
-max-height: auto;
-
-}
 }
 
 /* END "sm-" 576px and up */
@@ -365,12 +362,7 @@ max-height: auto;
     display: none;
 }
 
-     #haanden {
 
-max-width: 50%;
-max-height: auto;
-
-}
 
 /* END "md-" 768px and up */
 
@@ -419,15 +411,7 @@ max-height: auto;
 
 
 
-    #haanden {
 
-max-width: 30%;
-max-height: auto;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-
-}
     /* END "lg-" 992px and up */
 }
 
