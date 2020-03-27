@@ -124,7 +124,7 @@ p,
 p a {
     font-size: 12px;
     text-align: center;
-    color: #888;
+    color: black;
 }
 
 
@@ -140,6 +140,8 @@ p a {
 html,
 body {
     height: 100%;
+    background-color: white;
+    margin: 0px;
 }
 
 
