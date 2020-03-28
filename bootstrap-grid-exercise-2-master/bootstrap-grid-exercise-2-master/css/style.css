@@ -5,8 +5,15 @@
 /**************************************************/
 
 
-
 /* Important styles */
+
+a,
+h2 {
+    color: #a32f16;
+    font-family: 'Merriweather', serif;
+    line-height: 1.4em;
+}
+
 #toggle {
     display: block;
     width: 28px;
@@ -251,6 +258,7 @@ h1 {
 
 }
 
+a,
 h2 {
     color: #a32f16;
     font-family: 'Merriweather', serif;
