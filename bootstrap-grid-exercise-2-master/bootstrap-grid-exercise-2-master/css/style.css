@@ -8,10 +8,7 @@
 /* Important styles */
 
 
-#helelortet {
-    padding-left: 1em;
-    padding-right: 1em;
-}
+
 
 a,
 h2 {
@@ -520,6 +517,11 @@ span.carousel-control-next-icon {
     font-family: 'Merriweather', serif;
     font-size: 4em;
         }
+
+        #helelortet {
+    padding-left: 3em;
+    padding-right: 3em;
+}
 
         /* END "xl-" 1200px and up */
     }
