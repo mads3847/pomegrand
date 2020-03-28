@@ -7,6 +7,12 @@
 
 /* Important styles */
 
+
+#helelortet {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 a,
 h2 {
     color: #a32f16;
@@ -107,14 +113,14 @@ li a {
 
 li a {
     padding: 5px;
-    color: #888;
+    color: white;
     text-decoration: none;
     transition: all .2s;
 }
 
 li a:hover,
 li a:focus {
-    background: #1ABC9C;
+    background: white;
     color: #fff;
 }
 
