@@ -256,6 +256,7 @@ h1 {
     color: white;
     font-family: 'Merriweather', serif;
 
+
 }
 
 a,
@@ -506,6 +507,13 @@ span.carousel-control-next-icon {
     /* // Extra large devices (large desktops, 1200px and up) */
     /**************************************************/
     @media (min-width: 1200px) {
+
+
+        h1 {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 4em;
+        }
 
         /* END "xl-" 1200px and up */
     }
